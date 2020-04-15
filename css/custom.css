@@ -62,18 +62,21 @@ left: 0; content: "";opacity: 0.5}
 
 
 
-
 /* latest events */
 
 #latest_events{padding: 50px 0; background: #f6f6f6;}
 #latest_events .row:first-child{margin-bottom: 30px}
-#latest_events .child_event{width: 31%; float: left; margin: 0 1% 20px; overflow: hidden; background: #fff; border: 1px solid #ddd; border border-radius: 5px;}
+#latest_events .child_event{width: 100%; max-height:100% ;float: left; margin: 0 1% 20px; overflow: hidden; background: #fff; border: 1px solid #ddd; border border-radius: 5px;}
 #latest_events .child_event img{width: 100%; height: auto; margin-bottom: 15px;}
 #latest_events .event_main{width: 100%; padding: 20px;}
 #latest_events .event_main h3{color: #df4a43; font-size: 18px;font-family: 'Open Sans', sans-serif;}
 #latest_events .event_main p{color: #6f7478; font-size: 11px; text-align: justify}
 #latest_events .event_main a.details{color: #df4a43; border: 1px solid #df4a43; display: inline-block; padding: 8px 15px; text-decoration: none;border-radius: 3px}
 #latest_events .event_main a.details:hover{background: #df4a43; border: 1px solid #df4a43; color: #ffff;}
+.owl-theme .owl-dots .owl-dot {display: inline-block;zoom: 1;display: none;}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {color: inherit;font: inherit;background: #df4a43;color: white;width: 21px;height: 23px;border-radius: 3px;font-size: 23px;margin-top: 2px;}
+.owl-theme .owl-nav [class*="owl-"]:hover{background: black}
+.owl-nav button span {top: -3px;position: relative;}
 
 
 /*  what we do  */
@@ -111,10 +114,10 @@ left: 0; content: "";opacity: 0.5}
 #our_crew .crew h5{margin-top: 10px;color: #df4a43; font-size: 20px}
 #our_crew .crew h6{color: #6f7478; font-size: 15px}
 #our_crew .owl-dots{display: none}
-#our_crew .owl-nav{position: absolute}
 #our_crew .owl-nav {position: absolute;top: -70px;right: 20px;}
 #our_crew .owl-nav button {background: #df4b44;width: 28px;height: 24px;color: white;font-size: 25px;}
 #our_crew .owl-nav button span {top: -3px;position: relative;}
+#our_crew .owl-nav button:hover {background: black}
 
 /* footer */
 
