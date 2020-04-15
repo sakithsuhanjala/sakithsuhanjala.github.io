@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.crew_area').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -15,4 +15,19 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-
+$('.event_area').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
